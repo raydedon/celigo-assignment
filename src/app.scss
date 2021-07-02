@@ -39,9 +39,12 @@
 }
 
 .wrapper {
-
+  display: grid;
+  grid-template-rows: auto 1fr;
+  max-height: 100vh;
 }
 
 .body {
   padding: 15px;
+  overflow: auto;
 }

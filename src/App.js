@@ -9,6 +9,7 @@ import About from './About';
 import Home from './Home';
 import SignIn from './SignIn';
 import classes from './app.scss';
+import classNames from 'classnames';
 
 const links = [
     {id: 'home', text: 'Home', orient: 'left', to:'/', exact: true},
@@ -18,7 +19,7 @@ const links = [
 
 const App = () => {
     return (
-        <div className={classes.container}>
+        <div className={classNames(classes.container, classes.wrapper)}>
             <Router>
                 <TopNav links={links}/>
                 <div className={classes.body}>

@@ -1,7 +1,7 @@
 
 # Celigo Assignment
 
-This project quickly demonstrates how to create a simple react app using react-router, webpack, babel, eslint. I have also used docker for quick demo.
+This project quickly demonstrates how to create a simple react app using react-router, webpack, babel, eslint. I have also used docker for quick demo. It demonstrates a navigation 
 
 
 ## Authors
@@ -45,4 +45,3 @@ Run container using command on terminal
 ```
 
 
-  
