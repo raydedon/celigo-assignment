@@ -1,7 +1,12 @@
 
 # Celigo Assignment
 
-This project quickly demonstrates how to create a simple react app using react-router, webpack, babel, eslint. I have also used docker for quick demo. It demonstrates a navigation 
+This project quickly demonstrates a responsive top navbar. It comprises of the following tech stack:-
+- react
+- react-router.
+- webpack.
+- babel.
+- eslint.
 
 
 ## Authors
@@ -38,10 +43,19 @@ Start the server
   
 ## Run containers using Docker
 
-Run container using command on terminal
+Install docker locally on your machine. https://docs.docker.com/engine/install/
+
+
+Run container using the command below on your terminal
 
 ```bash
   docker run -d -p 8083:8083 raydedon/celigo-assignment:1.0
 ```
 
 
+  
+## Demo
+
+- https://nimb.ws/IC0m7v
+- https://nimb.ws/fItc6r
+    
